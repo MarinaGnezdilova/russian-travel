@@ -1,0 +1,18 @@
+.places__link {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+    transition: opacity .2s ease-in-out;
+}
+
+@media screen and (max-width: 660px) {
+    .places__link {
+        order: 3;
+    }
+}

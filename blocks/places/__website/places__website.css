@@ -1,0 +1,14 @@
+.places__website {
+    grid-area: website;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media screen and (max-width: 660px) {
+    .places__website {
+        order: 2;
+        margin-left: 16px;
+        margin-bottom: 22px;
+    }
+}
