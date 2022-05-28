@@ -2,7 +2,7 @@
     width: 100%;
     box-sizing: border-box;
     padding-left: 148px;
-    padding-top: 92px;
+    padding-top: 95px;
     padding-bottom: 92px;
 }
 
@@ -14,8 +14,9 @@
 
 @media screen and (max-width: 1023px) {
     .intro {
+        padding-top: 92px;
         padding-left: 24px;
-        padding-bottom: 88px;
+        padding-bottom: 86px;
     }
 }
 
@@ -24,5 +25,6 @@
         padding-top: 64px;
         padding-bottom: 65px;
         padding-left: 16px;
+        padding-right: 16px;
     }
 }

@@ -15,5 +15,6 @@
     .places__image {
         order: 4;
         margin-bottom: 32px;
+        margin: 0 auto;
     }
 }
